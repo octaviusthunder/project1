@@ -1,0 +1,30 @@
+h2 {
+    font-family: 'Bangers', cursive;
+    font-size: 60px;
+    margin: 0 0 5px 0;
+    display: inline;
+    user-select: none;
+}
+
+#start {
+    font-size: 20px;
+    margin: 10px;
+}
+p {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin: -50px 0 0 0;
+}
+body {
+    background: pink;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='50' viewport='0 0 100 100' style='fill:black;font-size:23px;'><text y='50%'>🔨</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+canvas {
+    background: lightgrey;
+    border: solid black 10px;
+}
+.canvas, h2 {
+    display: flex;
+    justify-content: center;
+}
